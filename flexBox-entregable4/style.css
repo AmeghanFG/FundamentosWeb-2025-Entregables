@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+header {
+    background-color: #7fb069;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 10rem;
+}
+
+.logo-container img{
+    width: 100%;
+    border-radius: 10px;
+    border-color: 1px solid black;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    height: 100%;
+    transition: all 0.2;
+}
+
+.nav-links ul li {
+    font-size: 1.2rem;
+}
+/*Flexbox Froggy*/
+
+.nav-links ul li:hover {
+    text-decoration: underline white 3px;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 3rem;
+    width: 80%;
+}
+
+.card {
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px;
+    background-color: #7fb069;
+    margin: 0 2rem 0 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.card-image-container {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 2rem;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.card-info-container button {
+    border: none;
+    align-self: flex-end;
+    margin: 5rem 0 0 0;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+
+.aside-panel {
+    background-color: #7fb069;
+    width: 20%;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: all 0.5s;
+}
+
+.aside-panel h2 {
+    padding: 2rem 0 1rem 0;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.aside-panel h2:hover {
+    background: #1d1a05;
+    padding: 1rem 0 1rem 0;
+    border-radius: 10px;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid #1d1a05;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Gabarito', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #7fb069;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer-links img {
+    width: 2rem;
+    height: 2rem;
+}
