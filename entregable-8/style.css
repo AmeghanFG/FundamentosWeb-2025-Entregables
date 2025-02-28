@@ -114,10 +114,11 @@ main{
     display: flex;
     gap: 3rem;
     flex-direction: column;
+    margin-right: 2rem;
 }
 
 .card{
-    width: 100%;
+    width: 65%;
     background-color: #7FB069;
     border-radius: 10px;
     display: flex;
@@ -154,7 +155,7 @@ main{
 }
 
 .aside-panel{
-    width: 40%;
+    width: 28%;
     background-color: #7FB069;
     border-radius: 10px;
     padding: 0.5rem 2rem 2rem 2rem;
